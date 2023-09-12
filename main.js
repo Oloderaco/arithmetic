@@ -1,3 +1,12 @@
+// B
+alert(" section B ");
+let x = +prompt("choose number X");
+let y = +prompt("choose number Y");
+let z = +prompt("choose number Z");
+let res = "arithmetic mean - " + (x + y + z) / 3;
+alert(res);
+
+
 // A
 alert("section A ")
 let
@@ -32,6 +41,7 @@ switch (randomOperator) {
     default:
         console.log('Invalid operator');
 }
+let ans = +prompt(`${number1} ${randomOperator} ${number2} = ?`)
 if (ans === result) {
     alert("Congrats ! you answered the question correctly " + "(" + ans + ")");
 } else {
@@ -40,15 +50,3 @@ if (ans === result) {
 
 console.log(`Results: ${log} (${age} y.o) answered - ${ans}`);
 console.log('the correct answer was ' + result);
-
-
-// B
-alert(" section B ");
-let x = +prompt("choose number X");
-let y = +prompt("choose number Y");
-let z = +prompt("choose number Z");
-let res = "arithmetic mean - " + (x + y + z) / 3;
-alert(res);
-
-
-let ans = +prompt(`${number1} ${randomOperator} ${number2} = ?`)
